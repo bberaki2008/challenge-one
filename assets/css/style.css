@@ -1,8 +1,10 @@
 :root {
+    /* declare Global variables */
     --white-color:#ffffff;
     --light-gray-color:#d9dcd6;
 }
 
+/* Uinversal selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +14,7 @@
 body {
     background-color: var(--light-gray-color);
 }
-
+/* header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +30,7 @@ h1 {
 .seo {
     color: var(--light-gray-color);
 }
-
+/* navbar section */
 .navbar {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +52,7 @@ a {
     color: var(--white-color);
     text-decoration: none;
 }
-
+/* main section */
 p {
     font-size: 16px;
 }
@@ -137,6 +139,7 @@ p {
     font-size: 36px;
 }
 
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
